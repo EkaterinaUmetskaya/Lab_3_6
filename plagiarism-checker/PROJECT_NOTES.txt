@@ -1,7 +1,0 @@
-Project: TextTrace EDU
-Student: Умецкая Екатерина
-Server port: 3100
-Extension folder: chrome_extension
-Node server: server_node
-
-This variant uses DB name texttrace-umetskaya-v2-indexeddb and API base http://localhost:3100/api.
