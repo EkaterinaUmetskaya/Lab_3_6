@@ -1,0 +1,7 @@
+Project: DocScope EK
+Student: Umetskaya Ekaterina
+Server port: 3000
+Extension folder: chrome_extension
+Node server: server_node
+
+This variant uses DB name docscope-ek-v1-indexeddb and API base http://localhost:3000/api.

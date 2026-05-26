@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Документы</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="page-header">
+
+      <h1>История проверенных файлов</h1>
+      <a class="button" href="upload.html">Новая проверка</a>
+      <button class="button danger" id="clearButton" type="button">Очистить локальную историю</button>
+      <button class="button danger" id="clearServerButton" type="button">Очистить базу сервера</button>
+      <p id="emptyState" class="empty hidden">В IndexedDB пока нет результатов проверок.</p>
+      <table class="data-table"><thead><tr><th>Файл</th><th>Студент</th><th>Дата</th><th>Макс. совпадение</th><th>Совпадает с</th><th>Сравнений</th><th>Статус</th></tr></thead><tbody id="documentsTable"></tbody></table>
+
+    </header>
+  </main>
+  <script src="../js/config.js"></script>
+  <script src="../js/encoding.js"></script>
+  <script src="../js/db.js"></script>
+  <script src="../js/documents.js"></script>
+</body>
+</html>
